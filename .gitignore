@@ -1,0 +1,40 @@
+# ===== 通用忽略规则 =====
+
+# 系统文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 日志与临时文件
+*.log
+*.tmp
+*.bak
+*.cache/
+
+# 依赖目录
+node_modules/
+vendor/
+__pycache__/
+.venv/
+venv/
+
+# 构建产物
+build/
+dist/
+target/
+out/
+
+# 环境变量与密钥（不要提交敏感信息！）
+.env
+.env.*
+*.pem
+*.key
+
+# Git 自身
+*.orig
